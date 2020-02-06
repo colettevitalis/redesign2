@@ -1,0 +1,34 @@
+lsi:         false
+name: Academie d'Espee
+description: Kingdom of Atlantia
+sass:
+    style: :compressed
+url: http://www.academiedespee.com/
+highlighter: rouge
+markdown: kramdown
+excerpt_separator: <!-- more -->
+permalink:   pretty
+exclude:
+  - README.txt
+  - Rakefile
+defaults:
+    - values:
+        layout: default
+nav:
+  - text: Index
+    href: /
+  - text: Sacred Oaths
+    href: /oaths
+  - text: Rapier Champions
+    href: /queens-champions
+  - text: Iron Spike
+    href: /iron-spike
+  - text: Blacksword Competition
+    href: /blacksword
+  - text: Articles
+    href: /articles
+  - text: Links
+    href: /links
+collections:
+    personas:
+        output: true
