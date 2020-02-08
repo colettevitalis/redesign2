@@ -3,6 +3,7 @@ name: Academie d'Espee
 description: Kingdom of Atlantia
 sass:
     style: :compressed
+    sass_dir: ./_scss
 url: http://www.academiedespee.com/
 highlighter: rouge
 markdown: kramdown
@@ -36,6 +37,10 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-case_invalid_when
+strict_front_matter: true
+liquid:
+  error_mode: strict
 collections:
     personas:
         output: true
